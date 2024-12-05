@@ -62,20 +62,12 @@ npx playwright install
 
 ## 🛠️ Usage
 
-### Run All Tests
+### Run the e2e Tests
 
-To execute all the Playwright tests in the project:
+To execute the Playwright, e2e test in the project:
 
 ```bash
 npx playwright test
-```
-
-### Run Specific Test Files
-
-Run tests from a specific file:
-
-```bash
-npx playwright test tests/example.spec.ts
 ```
 
 ### View HTML Test Reports
@@ -92,7 +84,7 @@ npx playwright show-report
 
 ```plaintext
 project-root/
-├── tests/               # Folder containing Playwright test files
+├── tests/               # Folder containing Playwright test e2e
 ├── .env                 # Environment variables file
 ├── playwright.config.ts # Configuration for Playwright
 ├── package.json         # npm configuration file

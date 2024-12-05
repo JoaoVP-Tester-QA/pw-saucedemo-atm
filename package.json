@@ -2,7 +2,9 @@
   "name": "pw-exercise",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "e2e": "npx playwright test tests/test-e2e.spec.ts --project=chromium"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
