@@ -28,8 +28,7 @@ Ensure you have the following tools installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/JoaoVP-Tester-QA/pw-saucedemo-atm.git
 ```
 
 ### 2. Initialize Playwright
@@ -67,7 +66,7 @@ npx playwright install
 To execute the Playwright, e2e test in the project:
 
 ```bash
-npx playwright test
+npm run e2e
 ```
 
 ### View HTML Test Reports
@@ -91,11 +90,6 @@ project-root/
 ├── README.md            # Documentation (you are here!)
 ```
 
----
-
-## 🛡️ License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -109,7 +103,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ### 💡 Need Help?
 
-If you encounter any issues or have questions, feel free to [open an issue](https://github.com/your-repo-name/issues) or reach out.
+If you encounter any issues or have questions, feel free to [open an issue](https://github.com/JoaoVP-Tester-QA/pw-saucedemo-atm.git) or reach out.
 
 ---
 
